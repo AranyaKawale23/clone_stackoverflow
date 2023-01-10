@@ -1,0 +1,179 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.chatbot-cont-main {
+    height: 100vh;
+    display: flex;
+}
+
+.chatbot-cont {
+    width: 93%;
+    background-color: rgb(49, 49, 49);
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.chat-bot-chats-screen {
+    width: 100%;
+    height: 90vh;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    transition: 0.5s;
+}
+
+.chatbot-chat-div {
+    border: 1px solid rgb(119, 119, 119);
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    padding: 2%;
+}
+
+.chatbot-icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    padding-left: 2%;
+}
+
+.my-icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: relative;
+    left: 90%;
+    background-color: rgb(0, 140, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chatbot-chats,
+.my-chats {
+    width: 70%;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+.my-chats {
+    width: 50%;
+    position: relative;
+    left: 25%;
+    text-align: center;
+}
+
+.RobO_cHaTBoT-time,
+.my-chats-time {
+    color: white;
+    font-size: 12px;
+}
+
+.my-chats-time {
+    position: relative;
+    right: 60%;
+}
+
+.chat-bot-lower-div {
+    height: 10vh;
+    padding: 0.2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 163, 233);
+}
+
+.chat-ask-ques {
+    width: 80%;
+    padding: 0.8%;
+}
+
+.chat-ask-ques-submit {
+    padding: 0.8%;
+    background-image: url("https://cdn-icons-png.flaticon.com/512/52/52116.png");
+}
+
+.chat-res {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+}
+
+.chat-img {
+    height: 70px;
+    width: 70px;
+}
+
+@media screen and (max-width:734px) {
+    .my-icon {
+        height: 30px;
+        width: 30px;
+    }
+
+    .chatbot-icon {
+        height: 35px;
+        width: 35px;
+    }
+
+    .chatbot-chats,
+    .my-chats {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width:565px) {
+    .my-icon {
+        height: 26px;
+        width: 26px;
+    }
+
+    .chatbot-icon {
+        height: 32px;
+        width: 32px;
+    }
+
+    .chatbot-chats,
+    .my-chats {
+        font-size: 9px;
+    }
+
+    .chat-ask-ques {
+        font-size: 11px;
+        padding: 1.7%;
+    }
+
+    .chat-ask-ques-submit {
+        padding: 1.4%;
+    }
+
+    .chat-img {
+        height: 50px;
+        width: 50px;
+    }
+
+    .chat-res p {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:439px) {
+
+    .RobO_cHaTBoT-time,
+    .my-chats-time {
+        color: white;
+        font-size: 10px;
+    }
+    .chat-img {
+        height: 30px;
+        width: 30px;
+    }
+
+    .chat-res p {
+        font-size: 11px;
+    }
+}

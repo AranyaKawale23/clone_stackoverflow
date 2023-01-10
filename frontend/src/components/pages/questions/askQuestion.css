@@ -1,0 +1,136 @@
+.askQues-body {
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+}
+
+.askQues-cont {
+    width: 90%;
+    padding-bottom: 2%;
+}
+
+.askQues-cont h2 {
+    font-family: monospace;
+    text-align: center;
+    padding: 2%;
+}
+
+.askQues-form {
+    display: flex;
+    justify-content: center;
+}
+
+.ask-form {
+    padding: 2%;
+    background-color: white;
+    border-radius: 5px;
+    width: 90%;
+}
+
+.ask-form label h4 {
+    padding: 0% 0% 1% 1%;
+    margin-top: 1%;
+}
+
+.ask-form label p {
+    font-size: 13px;
+    font-family: monospace;
+    padding: 0% 0% 1% 1%;
+}
+
+.ask-form label input,
+.ask-form label textarea {
+    padding: 10px;
+    border: 1px solid rgb(111, 111, 111);
+    font-family: monospace;
+    width: 95%;
+    resize: vertical;
+    margin: 0% 1% 2% 1%;
+}
+
+.review-btn {
+    background-color: rgb(0, 200, 255);
+    padding: 1%;
+    border-radius: 5px;
+    margin-left: 1%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 1%;
+    font-size: 15px;
+}
+
+@media screen and (max-width:1148px) {
+    .askQues-body {
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width:805px) {
+
+    .ask-form label input,
+    .ask-form label textarea {
+        margin: 2% 1% 2% 1%;
+    }
+
+    .askQues-cont h2 {
+        padding: 4%;
+    }
+}
+
+@media screen and (max-width:610px) {
+
+    .ask-form label input,
+    .ask-form label textarea {
+        margin: 4% 1% 2% 1%;
+    }
+
+    .ask-form label h4 {
+        margin-top: 3%;
+        font-size: 14px;
+    }
+
+    .ask-form label p,
+    .ask-form label input,
+    .ask-form label textarea {
+        font-size: 12px;
+    }
+
+    .ask-form label input,
+    .ask-form label textarea {
+        width: 93%;
+    }
+
+    .review-btn {
+        margin-top: 3%;
+        padding: 2%;
+    }
+
+    .inpt {
+        font-size: 1px;
+    }
+}
+
+@media screen and (max-width:461px) {
+
+    .ask-form label input,
+    .ask-form label textarea {
+        width: 90%;
+        font-size: 11px;
+    }
+
+    .ask-form label h4 {
+        font-size: 12px;
+    }
+
+    .ask-form label p {
+        font-size: 11.5px;
+    }
+
+    .askQues-cont {
+        font-size: 13px;
+    }
+
+    .review-btn {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+}

@@ -1,0 +1,113 @@
+.rightSide-bar {
+    position: relative;
+    width: 32%;
+    font-family: monospace;
+}
+
+.rightside-heading {
+    background-color: rgb(255, 179, 0);
+    padding: 4%;
+    font-size: 13px;
+    font-weight: 800;
+}
+
+/* -------- RightSideBar upper ------- */
+.rightside-upper-div {
+    margin: 0% 0% 8% 0%;
+    border: 1px solid rgb(134, 134, 134);
+}
+
+.rightside-upper-div-boxes {
+    background-color: rgb(255, 200, 0);
+}
+
+.rightside-heading {
+    color: black;
+}
+
+.upper-div-data {
+    display: flex;
+    gap: 5%;
+    padding: 5% 3% 5% 3%;
+    font-size: 14px;
+}
+
+.upper-div-data-icons {
+    height: 15px;
+    width: 15px;
+}
+
+/* -------- RightSideBar lower ------- */
+.rightside-lower-div {
+    height: 35vh;
+    background-color: rgb(255, 200, 0);
+    border: 1px solid rgb(134, 134, 134);
+    font-size: 12px;
+    margin-top: 5%;
+}
+
+#lower-heading {
+    background-color: rgb(255, 179, 0);
+    color: black;
+}
+
+.rightside-lower-tags {
+    margin: 3%;
+    padding: 1.4%;
+    background-color: rgb(110, 110, 110);
+    color: white;
+    position: relative;
+    float: left;
+    font-size: 13px;
+}
+
+@media screen and (max-width:800px) {
+    .rightside-heading {
+        font-size: 12px;
+    }
+
+    .upper-div-data {
+        font-size: 12px;
+    }
+
+    .rightside-lower-tags {
+        font-size: 11px;
+        padding: 2%;
+    }
+}
+
+@media screen and (max-width:616px) {
+    .upper-div-data-icons {
+        height: 12px;
+        width: 12px;
+    }
+
+    .upper-div-data b {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:474px) {
+    .rightside-heading {
+        font-size: 10px;
+    }
+
+    .upper-div-data {
+        font-size: 9px;
+    }
+
+    .rightside-lower-tags {
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width:474px) {
+    .upper-div-data-icons {
+        height: 10px;
+        width: 10px;
+    }
+
+    .upper-div-data b {
+        font-size: 9px;
+    }
+}

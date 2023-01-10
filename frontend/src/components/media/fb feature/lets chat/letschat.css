@@ -1,0 +1,180 @@
+.let-chat-cont {
+    height: 140vh;
+    width: 100%;
+    background-color: rgb(250, 167, 0);
+    position: fixed;
+    transition: 0.6s;
+    z-index: 1;
+    top: 0%;
+    transition: 0.2s;
+}
+
+.let-chat {
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    padding: 1%;
+    background-color: rgb(255, 179, 0);
+    color: white;
+}
+
+.let-chat-refresh-btn,
+.let-chat-close-btn {
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    right: 8%;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: 0.5s;
+    margin-right: 2%;
+}
+
+.let-chat-refresh-btn:active {
+    transform: rotate(200deg);
+}
+
+.let-chat-close-btn {
+    right: 1.5%;
+}
+
+.fb-msg-screen {
+    width: 100%;
+    height: 82vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    z-index: -1;
+    background-color: black;
+    font-family: monospace;
+}
+
+.chat-boxes {
+    padding: 1%;
+}
+
+.chat-inner-div {
+    padding: 1%;
+    display: flex;
+    align-items: center;
+}
+
+.chat-user-name {
+    position: relative;
+}
+
+.chat-msg {
+    line-break: anywhere;
+    padding: 1%;
+    width: 40%;
+    border: 1px solid black;
+    background-color: rgb(30, 30, 30);
+    color: white;
+}
+
+.msg-form-div {
+    padding-top: 1%;
+    bottom: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.msg-form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.write-message {
+    width: 85%;
+    padding: 0.5%;
+}
+
+.sent-message {
+    padding: 0.5%;
+    margin-right: 3%;
+}
+
+@media screen and (max-width:1178px) {
+
+    .msg-form-div {
+        padding: 1%;
+    }
+
+    .let-chat {
+        padding: 2%;
+    }
+}
+
+@media screen and (max-width:907px) {
+    .msg-form-div {
+        padding-top: 2%;
+    }
+}
+
+@media screen and (max-width:774px) {
+    .msg-form-div {
+        padding-top: 2%;
+    }
+
+    .write-message,
+    .sent-message {
+        padding: 1%;
+    }
+}
+
+@media screen and (max-width:663px) {
+    .fb-msg-screen {
+        height: 84vh;
+    }
+}
+
+@media screen and (max-width:547px) {
+    .fb-msg-screen {
+        height: 86vh;
+    }
+
+    .write-message {
+        width: 75%;
+    }
+
+    .chat-boxes {
+        margin: 2%;
+    }
+
+    .chat-msg {
+        padding: 2%;
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width:441px) {
+    .fb-msg-screen {
+        height: 86vh;
+    }
+
+    .let-chat-refresh-btn {
+        right: 15%;
+    }
+
+    .let-chat-close-btn {
+        right: 6%;
+    }
+
+    .let-chat {
+        padding: 4%;
+    }
+
+    .msg-form-div {
+        padding-top: 3%;
+    }
+}
+
+@media screen and (max-width:369px) {
+    .fb-msg-screen {
+        height: 89vh;
+    }
+}

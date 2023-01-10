@@ -1,0 +1,312 @@
+.ques-route-box {
+    position: relative;
+    width: 55%;
+    background-color: rgb(252, 166, 54);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.ques-sec-one {
+    padding: 1%;
+}
+
+.sec1-header {
+    padding: 1%;
+}
+
+.ques-sec-one-inner-div {
+    display: flex;
+}
+
+.ques-votes {
+    padding: 4%;
+    text-align: center;
+}
+
+.ques-body {
+    padding: 5% 0% 0% 1%;
+}
+
+.sec1-header {
+    padding: 2%;
+}
+
+.quest-tags-body-tags {
+    float: left;
+    background-color: aquamarine;
+    margin: 1% 1% 1% 1%;
+    font-family: monospace;
+    padding: 2%;
+}
+
+.ques-sec-one-inner-div2 {
+    padding: 1%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ques-sec-one-inner-div2-btnbox {
+    display: flex;
+    align-items: center;
+    gap: 3%;
+}
+
+.QuesAndAns-page-btns {
+    padding: 10%;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+.QuesAndAns-page-btns:nth-child(2) {
+    border: 1px solid red;
+    background-color: rgb(249, 61, 61);
+}
+
+.QuesAndAns-page-btns:nth-child(1) {
+    border: 1px solid blue;
+    background-color: rgb(41, 91, 255);
+}
+
+.share-btn:active {
+    background-color: green;
+    color: black;
+}
+
+.ques-sec-one-inner-div2-userbox {
+    display: flex;
+    align-items: center;
+    padding: 1%;
+    gap: 3%;
+}
+
+.user-link {
+    text-decoration: none;
+    padding: 1%;
+    text-align: center;
+}
+
+.sec1-ask-on {
+    padding: 1%;
+}
+
+.display-ans {
+    border-bottom: 1px solid black;
+}
+
+.display-ans p {
+    padding: 3%;
+}
+
+.post-answer,
+.ques-sec-two {
+    border-top: 1px solid black;
+}
+
+.post-answer h1 {
+    padding: 5% 0% 3% 1%;
+}
+
+.post-answer form textarea {
+    width: 95%;
+    resize: vertical;
+    padding: 2%;
+    margin-top: 2%;
+}
+
+.post-answer-btn {
+    padding: 2% 3% 2% 3%;
+    margin-left: 1%;
+    margin-top: 2%;
+    border: 2px solid white;
+    background-color: rgb(140, 0, 255);
+    color: white;
+    cursor: pointer;
+}
+
+.last-sec-last-text {
+    margin-top: 3%;
+}
+
+.answer-tags,
+.ask-your-question {
+    text-decoration: none;
+}
+
+.voter {
+    height: 40px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 5%;
+}
+
+.voter img {
+    height: 20px;
+    width: 20px;
+    transition: 0.1s;
+}
+
+@media screen and (max-width:766px) {
+    .sec1-header {
+        font-size: 20px;
+    }
+
+    .post-answer h1 {
+        font-size: 20px;
+    }
+
+    .quest-tags-body-tags {
+        font-size: 12px;
+    }
+
+    .QuesAndAns-page-btns {
+        font-size: 12px;
+    }
+
+    .sec1-ask-on {
+        font-size: 14px;
+    }
+
+    .last-sec-last-text {
+        font-family: monospace;
+        font-size: 12px;
+    }
+    .voter img {
+        height: 17px;
+        width: 17px;
+    }
+}
+
+@media screen and (max-width:608px) {
+    .sec1-header {
+        font-size: 15px;
+        padding: 2%;
+        margin-top: 2%;
+    }
+
+    .QuesAndAns-page-btns {
+        font-size: 10px;
+    }
+
+    .sec1-ask-on {
+        font-size: 12px;
+    }
+
+    .user-link {
+        font-size: 13px;
+    }
+
+    .sec1-header {
+        font-size: 15px;
+    }
+
+    .ques-body-fc {
+        font-size: 13px;
+    }
+
+    .quest-tags-body-tags {
+        font-size: 10px;
+    }
+
+    .ques-route-box {
+        font-size: 13px;
+    }
+
+    .ques-votes img {
+        height: 15px;
+        width: 15px;
+    }
+    .voter img {
+        height: 16px;
+        width: 16px;
+    }
+}
+
+@media screen and (max-width:541px) {
+    .post-answer-btn {
+        font-size: 11px;
+    }
+
+    .last-sec-last-text {
+        font-size: 10px;
+    }
+    .voter img {
+        height: 15px;
+        width: 15px;
+    }
+}
+
+@media screen and (max-width:447px) {
+
+    .ques-body-fc {
+        padding: 1% 5% 1% 1%;
+    }
+
+    .quest-tags-body-tags {
+        padding: 1% 5% 1% 1%;
+    }
+
+    .ques-votes {
+        padding: 3%;
+    }
+
+    .ques-sec-one-inner-div2 {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .sec1-header {
+        font-size: 13px;
+        padding: 5%;
+        margin-top: 5%;
+    }
+
+    .QuesAndAns-page-btns,
+    .sec1-ask-on,
+    .user-link {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .QuesAndAns-page-btns {
+        font-size: 9px;
+    }
+
+    .sec1-ask-on {
+        font-size: 10px;
+    }
+
+    .user-link {
+        font-size: 11px;
+    }
+
+    .display-ans p {
+        padding-left: 5%;
+    }
+
+    .post-answer h1 {
+        font-size: 15px;
+        padding-left: 5%;
+    }
+
+    .post-answer form {
+        padding: 3%;
+    }
+
+    .answer-tags {
+        display: none;
+    }
+
+    .ques-sec-one-inner-div2 {
+        gap: 15%;
+    }
+
+    .last-sec-last-text {
+        padding: 5%;
+    }
+    .voter img {
+        height: 12px;
+        width: 12px;
+    }
+}

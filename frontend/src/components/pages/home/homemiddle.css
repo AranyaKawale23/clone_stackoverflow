@@ -1,0 +1,129 @@
+.middle {
+    position: relative;
+    width: 60%;
+    font-family: monospace;
+}
+
+.qus-scrl{
+    height: 900px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+}
+
+.main-bar-header {
+    padding: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-bar-header h2 {
+    color: white;
+}
+
+.ask-btn {
+    background-color: rgb(0, 179, 255);
+    text-decoration: none;
+    padding: 2%;
+    color: white;
+    text-align: center;
+}
+
+.refresh-page {
+    height: 30px;
+    width: 30px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.refresh-page:active {
+    transform: rotate(120deg);
+}
+
+.noOfques {
+    padding: 2%;
+    color: white;
+}
+
+.ques-cont {
+    border: 1px solid black;
+    display: flex;
+    margin: 1% 0% 1% 0%;
+    background-color: rgb(255, 255, 255);
+    color: white;
+}
+
+.ques-cont-childs {
+    border: 1px solid rgb(240, 240, 240);
+    padding: 2%;
+    text-align: center;
+    margin: 1%;
+    color: black;
+    display: grid;
+}
+
+.quest-tags {
+    margin: 2%;
+    color: black;
+    background-color: aquamarine;
+    position: relative;
+    float: left;
+    padding: 1%;
+}
+
+.quest {
+    width: 55%;
+    text-decoration: none;
+    color: rgb(0, 149, 255);
+    margin: 2%;
+}
+
+.quest a {
+    width: 100%;
+}
+
+@media screen and (max-width:800px) {
+    .middle {
+        font-size: 12px;
+    }
+
+    .refresh-page {
+        height: 25px;
+        width: 25px;
+    }
+}
+
+@media screen and (max-width:677px) {
+    .middle {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width:578px) {
+    .middle {
+        font-size: 10px;
+    }
+
+    .refresh-page {
+        height: 20px;
+        width: 20px;
+    }
+}
+
+@media screen and (max-width:477px) {
+    .middle {
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width:404px) {
+    .middle {
+        font-size: 7px;
+    }
+
+    .refresh-page {
+        height: 15px;
+        width: 15px;
+    }
+}

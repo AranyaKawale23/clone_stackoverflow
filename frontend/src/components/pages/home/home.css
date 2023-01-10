@@ -1,0 +1,7 @@
+.home-cont {
+    width: 100%;
+    display: flex;
+    gap: 1%;
+    background-color: royalblue;
+    transition: 0.5s;
+}

@@ -1,0 +1,39 @@
+.media-cont {
+    height: 100vh;
+    background-color: rgb(255, 191, 0);
+    padding: 0.5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.social-btn,
+.chatbot-btn {
+    height: 300px;
+    width: 300px;
+    box-shadow: 1px 1px 5px black;
+}
+
+.media-btns p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 3px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width:785px) {
+
+    .social-btn,
+    .chatbot-btn {
+        height: 200px;
+        width: 200px;
+    }
+}
+
+@media screen and (max-width:478px) {
+    .media-cont {
+        display: grid;
+    }
+}

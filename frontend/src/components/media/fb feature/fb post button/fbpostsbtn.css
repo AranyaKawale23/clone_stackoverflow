@@ -1,0 +1,67 @@
+.right-cont {
+    text-align: center;
+    z-index: 1;
+    padding: 1%;
+    position: fixed;
+    background-color: black;
+    position: fixed;
+    transition: 0.5s;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.post-in-btn,
+.fb-refresh-posts {
+    width: 35px;
+    height: 35px;
+    background: radial-gradient(rgba(255, 0, 128, 0.8) 60%, rgba(255, 255, 255, 1) 62%);
+    border-radius: 50%;
+    position: relative;
+    margin: 20px auto;
+    box-shadow: 0px 0px 25px 3px rgba(255, 0, 128, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+}
+
+.fb-refresh-posts {
+    background: radial-gradient(rgba(0, 136, 255, 0.8) 60%, rgba(255, 255, 255, 1) 62%);
+    box-shadow: none;
+}
+
+/* pulse wave */
+.post-in-btn:before,
+.fb-refresh-posts:before {
+    content: "";
+    position: absolute;
+    width: 150%;
+    height: 150%;
+    animation: pulsate1 2s forwards infinite;
+    opacity: 1;
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, .75);
+    top: -36%;
+    left: -36%;
+    background: rgba(198, 16, 0, 0);
+}
+
+.fb-refresh-posts:active {
+    transform: rotate(100deg);
+}
+
+@keyframes pulsate1 {
+    0% {
+        transform: scale(0.6);
+        opacity: 1;
+        box-shadow: inset 0px 0px 25px 3px rgba(255, 255, 255, 0.75), 0px 0px 25px 10px rgba(255, 255, 255, 0.75);
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 0;
+        box-shadow: none;
+
+    }
+}

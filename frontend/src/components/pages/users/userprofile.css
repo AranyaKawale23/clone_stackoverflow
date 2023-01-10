@@ -1,0 +1,104 @@
+.user-prof {
+    height: 150vh;
+    width: 100%;
+    display: flex;
+    background-color: royalblue;
+}
+
+.user-prof-cont {
+    width: 95%;
+    padding: 1%;
+    border: 1px solid black;
+    font-family: monospace;
+    background-color: rgb(255, 111, 0);
+}
+
+.user-details-cont {
+    padding: 2%;
+}
+
+.user-name h2,
+.user-name p {
+    margin-top: 2%;
+    margin-left: 0.2%;
+}
+
+.edit-profile-btn {
+    width: 100%;
+    margin-top: 1%;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+}
+
+.down-cont {
+    font-size: 13px;
+    padding: 0%;
+    margin-bottom: 3%;
+}
+
+.edit-div {
+    padding: 2%;
+}
+
+.edit-prof-form label h3 {
+    margin-top: 2%;
+    margin-left: 0.4%;
+}
+
+.edit-prof-form label input {
+    margin-top: 0.5%;
+    padding: 0.5% 0% 0.5% 1%;
+    width: 95%;
+}
+
+.edit-prof-form label textarea {
+    margin-top: 0.5%;
+    padding: 0.5% 0% 0.5% 1%;
+    width: 95%;
+    resize: vertical;
+}
+
+.edit-prof-form label p {
+    margin-top: 1%;
+    margin-left: 0.4%;
+}
+
+.edit-prof-form input,
+.edit-prof-form button {
+    margin-top: 1%;
+    padding: 0.5%;
+}
+
+.edit-prof-form button {
+    margin-left: 1%;
+}
+
+#tags {
+    font-size: 12px;
+    padding: 1%;
+}
+
+.logout-btn {
+    padding: 1%;
+    margin-top: 3%;
+    margin-left: 2%;
+}
+
+.prof-tag-cont,
+.prof-bio-cont{
+    margin-top: 2%;
+}
+
+.prof-tag-cont p{
+    margin-top: 1%;
+}
+
+@media screen and (max-width:443px) {
+
+    .user-details-cont,
+    .down-cont{
+        font-size: 11px;
+    }
+}
